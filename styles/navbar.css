@@ -1,0 +1,70 @@
+@import url(./constants.css);
+
+._navbar-component {
+  background-color: var(--opacity-background-color);
+  box-shadow: 0 0 5px var(--background-color);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+}
+
+._navbar-component-wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;  
+}
+
+._navbar-component-wrapper ._navbar-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+._navbar-component-wrapper ._hidden-navbar-btn {
+  display: none;
+}
+
+._navbar-component-wrapper ._navbar-links-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._navbar-component-wrapper ._navbar-links-box a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 1rem 0;  
+}
+
+._navbar-component-wrapper ._navbar-logo-box a:hover,
+._navbar-component-wrapper ._navbar-links-box a:hover,
+._navbar-component-wrapper ._navbar-links-box a.active {
+  color: var(--highlight-color);  
+}
+
+._navbar-component ._hidden-navbar-links-box {
+  display: none;
+}
+
+._navbar-component ._hidden-navbar-links-box.show {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  padding-bottom: 1rem;  
+  background-color: var(--background-color);  
+}
+
+._navbar-component ._hidden-navbar-links-box a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  margin: 0.5rem 0;
+}
+
+._navbar-component-wrapper ._navbar-logo-box a,
+._navbar-component-wrapper ._hidden-navbar-btn a {  
+  text-decoration: none;
+  color: var(--text-color);
+}
+

@@ -1,0 +1,24 @@
+:root {  
+  --container-width-lg: 0 15rem;
+  --container-width-md: 0 4rem;
+  --container-width-sm: 0 2rem;
+  --container-width-xs: 0 1.2rem;
+  --background-color: #0f0e17;
+  --opacity-background-color: #0f0e17c2;
+  --text-color: #fffffe;
+  --secondary-color: #f25f4c;
+  --highlight-color: #ff8906;  
+  --paragraph-color: #a7a9be;
+  --tertiary-color: #e53170;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}

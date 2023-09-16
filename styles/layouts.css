@@ -1,0 +1,6 @@
+@import url(./constants.css);
+
+._container {
+  padding: var(--container-width-lg);
+}
+
