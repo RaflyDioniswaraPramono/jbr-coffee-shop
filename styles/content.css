@@ -1,0 +1,155 @@
+@import url(./content.css);
+
+._content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+._content ._tentang-component {
+  margin-bottom: 1rem;
+}
+
+._tentang-component ._image-section img {
+  margin-bottom: 1.4rem;
+}
+
+._tentang-component ._paragraph-section h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+._paragraph-section h2 i {
+  font-size: 1.3rem;
+}
+
+._tentang-component ._paragraph-section p {
+  margin-bottom: 1rem;
+}
+
+._bidang-usaha-component h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+._bidang-usaha-component h2 i {
+  font-size: 1.3rem;
+}
+
+._bidang-usaha-component ._bidang-usaha-content {
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  gap: 5%;
+}
+
+@media screen and (max-width: 550px) {  
+  ._tentang-component ._image-section img {
+    margin-bottom: 1.4rem;
+  }
+  
+  ._tentang-component ._paragraph-section h2 {
+    font-size: 1.8rem;    
+    width: 170px;
+  }
+  
+  ._paragraph-section h2 i {
+    font-size: 1rem;
+  }
+  
+  ._tentang-component ._paragraph-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  ._bidang-usaha-component h2 {
+    font-size: 1.8rem;    
+    width: 250px;
+  }
+  
+  ._bidang-usaha-component h2 i {
+    font-size: 1.3rem;
+  }
+  
+  ._bidang-usaha-component ._bidang-usaha-content {
+    display: grid;
+    grid-template-columns: auto;    
+  }
+}
+
+@media screen and (min-width: 550px) {  
+  ._tentang-component ._image-section img {
+    margin-bottom: 1.4rem;
+  }
+  
+  ._tentang-component ._paragraph-section h2 {
+    font-size: 1.8rem;    
+    width: 170px;
+  }
+  
+  ._paragraph-section h2 i {
+    font-size: 1rem;
+  }
+  
+  ._tentang-component ._paragraph-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  ._bidang-usaha-component h2 {
+    font-size: 1.8rem;    
+    width: 250px;
+  }
+  
+  ._bidang-usaha-component h2 i {
+    font-size: 1.3rem;
+  }
+  
+  ._bidang-usaha-component ._bidang-usaha-content {
+    display: grid;
+    grid-template-columns: auto auto;    
+  }
+}
+
+@media screen and (min-width: 770px) {  
+  ._tentang-component ._image-section img {
+    margin-bottom: 1.4rem;
+  }
+  
+  ._tentang-component ._paragraph-section h2 {
+    font-size: 1.8rem;    
+    width: 170px;
+  }
+  
+  ._paragraph-section h2 i {
+    font-size: 1rem;
+  }
+  
+  ._tentang-component ._paragraph-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  ._bidang-usaha-component h2 {
+    font-size: 1.8rem;    
+    width: 250px;
+  }
+  
+  ._bidang-usaha-component h2 i {
+    font-size: 1.3rem;
+  }
+  
+  ._bidang-usaha-component ._bidang-usaha-content {
+    display: grid;
+    grid-template-columns: auto auto;    
+  }
+}

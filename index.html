@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="./styles/layouts.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/jumbotron.css" />
+    <link rel="stylesheet" href="./styles/content.css" />
+    <link rel="stylesheet" href="./styles/side-content.css" />
+    <link rel="stylesheet" href="./styles/galeri.css" />
+    <link rel="stylesheet" href="./styles/komentar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -28,7 +33,7 @@
       <div class="_container">
         <div class="_navbar-component-wrapper">
           <div class="_navbar-logo-box">
-            <a href="/" style="font-size: 1.3rem">JBR Coffee </a>
+            <a href="/" style="font-size: 1.3rem"> JBR Coffee </a>
           </div>
           <div id="navbar-links-box" class="_navbar-links-box">
             <a href="#dashboard" class="_link active">Dashboard</a>
@@ -59,44 +64,277 @@
       <div class="_jumbotron-component">
         <div class="_container">
           <div class="_jumbotron-component-wrapper">
-            <h1>JBR Coffee</h1>
+            <h1><span style="color: #ff8906">JBR</span> Coffee</h1>
             <h2>Nikmati Kopi Untuk Menemani Hari Indahmu</h2>
             <p>
-              "Hidup itu ibarat minum kopi, kadang rasanya pahit, tapi itu yang
-              membuat mata terbuka. Karenanya dari kopi kita belajar, bahwa rasa
-              pahit itu dapat dinikmati".
+              " Hidup itu ibarat minum kopi, kadang rasanya pahit, tapi itu yang
+              membuat mata terbuka. Karenanya,
+              <span style="color: #ff8906">
+                dari pahitnya kopi kita belajar</span
+              >
+              bahwa, rasa pahit itu dapat dinikmati ".
             </p>
-            <button>
-              Maps
-            </button>
+            <button>Maps</button>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <!-- Side Contents -->
-      <aside>
+      <div class="_container">
+        <div class="_main-wrapper">
+          <!-- Main Contents -->
+          <div id="content" class="_content">
+            <article id="tentang" class="_tentang-component">
+              <section class="_image-section">
+                <img
+                  src="./assets/commons/about-image.webp"
+                  alt="Tentang Image Thumbnail"
+                  width="100%"
+                />
+              </section>
+              <section class="_paragraph-section">
+                <h2><i class="fa-solid fa-circle-info"></i> Tentang</h2>
+                <p>
+                  <strong>Jaya Berkah Rusun Coffee ( JBR )</strong> adalah
+                  <em>Coffee Shop</em> ternama di Lumajang. Dengan tempat yang
+                  berada di pusat kota membuat penikmat kopi lebih mudah
+                  menjangkau lokasi JBR. Tidak hanya lokasi yang strategis,
+                  <em>view</em> dari JBR bisa dibilang sangat indah. Bertemakan
+                  <strong><em>Modern Coffee Shop and Arabic Thema</em></strong>
+                  membuat penikmat kopi menjadi lebih nyaman.
+                </p>
+                <p>
+                  Biji kopi pilihan, kualitas bahan kopi dan tempat yang
+                  terjamin tidak bisa diragukan lagi dari JBR.
+                  <strong><em>Black Butter Instanbul Coffee</em></strong> adalah
+                  menu utama kopi yang disediakan. Soal rasa sudah tidak
+                  diragukan lagi karena semua <em>ingredients</em> atau bahan
+                  baku pembuatan sudah terjamin dari segi takaran, kualitas dan
+                  kebersihan. Tidak hanya itu, untuk menu lain juga terdapat
+                  beberapa keunikannya sendiri. Semua harga dipatok dengan harga
+                  yang pas dan nyaman untuk kantong masyarakan Lumajang.
+                </p>
+              </section>
+            </article>
+            <article id="bidang-usaha" class="_bidang-usaha-component">
+              <h2><i class="fa-solid fa-circle-info"></i> Bidang Usaha</h2>
+              <div class="_bidang-usaha-content">
+                <section class="_bidang-usaha-1">
+                  <img
+                    src="./assets/bussines/bussines1.webp"
+                    alt="Black Coffee Thumbnail"
+                    width="100%"
+                  />
+                  <p>
+                    <strong><em>Black Butter Coffee</em></strong> andalan JBR
+                    Coffee Shop Lumajang. Rasanya yang enak dan khas membuat
+                    perut tidak sakit saat meneguknya.
+                  </p>
+                </section>
+                <section class="_bidang-usaha-2">
+                  <img
+                    src="./assets/bussines/bussines2.webp"
+                    alt="Coffee Seed Thumbnail"
+                    width="100%"
+                  />
+                  <p>
+                    <strong>Biji Kopi</strong> pilihan dalam bentuk siap pakai
+                    berupa bubuk yang siap diseduh sendiri di rumah.
+                  </p>
+                </section>
+                <section class="_bidang-usaha-3">
+                  <img
+                    src="./assets/bussines/bussines3.webp"
+                    alt="Barista Person Thumbnail"
+                    width="100%"
+                  />
+                  <p>
+                    <strong><em>Barista Training</em></strong> juga tersedia
+                    untuk orang yang ingin mendalami bidang
+                    <em>Barista Coffee</em>. Perluas wawasan barista dengan
+                    mengikuti <strong><em>JBR Barista Training.</em></strong>
+                  </p>
+                </section>
+                <section class="_bidang-usaha-4">
+                  <img
+                    src="./assets/bussines/bussines4.webp"
+                    alt="Coffee Shop Frenchise Thumbnail"
+                    width="100%"
+                  />
+                  <p>
+                    JBR juga menyediakan
+                    <strong><em>Merchendise</em></strong> bagi pembisnis yang
+                    ingin <em>join</em> bersama JBR. Tidak perlu takut, akan ada
+                    sesi <em>introducing from zero to hero</em> bersama.
+                  </p>
+                </section>
+              </div>
+            </article>
+          </div>
 
-      </aside>
+          <!-- Side Contents -->
+          <aside>
+            <div class="_side-content">
+              <div class="side-content-wrapper">
+                <div class="_side-image-box">
+                  <img
+                    src="./assets/commons/owner.webp"
+                    alt="Owner Coffee Shop"                    
+                  />
+                </div>
+                <div class="_side-description-box">
+                  <p>Rafly Dioniswara Pramono</p>
+                  <div class="_divider"></div>
+                  <p class="_sosial-media-text">Sosial Media:</p>
+                  <div class="_sosial-media-box">
+                    <a href="">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <p class="_keywords-text">Kata Kunci:</p>
+                <div class="_keywords-box">
+                  <a href="##">JBR</a>
+                  <a href="##">Lokasi</a>
+                  <a href="##">Menu teratas</a>
+                  <a href="##"><em>Barista Training</em></a>
+                  <a href="##"><em>Frenchise</em></a>
+                  <a href="##"><em>Butter Coffee</em></a>
+                  <a href="##">Sosial media</a>
+                  <a href="##">Bubuk kopi</a>
+                  <a href="##"><em>Views</em></a>
+                  <a href="##">Kontak CS</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
 
-      <!-- Main Contents -->
-      <div class="_content">
-        <article id="tentang" class="_tentang-component">
-          <section class="_image-section">
-
-          </section>
-          <section class="_paragraph-section">
-
-          </section>
-        </article>
-        <article id="bidang-usaha" class="_bidang-usaha-component">
-                    
-        </article>
+        <div id="galeri" class="_galeri-content">
+          <h2><i class="fa-solid fa-table-cells-large"></i> Galeri</h2>
+          <div class="_galeri-wrapper">
+            <div class="_galeri-column">
+              <img
+                src="./assets/gallery/galeri1_potrait.webp"
+                alt="Galeri Images"
+              />
+              <img src="./assets/gallery/galeri1_a.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri2_a.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri3_a.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri4_a.webp" alt="Galeri Images" />
+            </div>
+            <div class="_galeri-column">
+              <img src="./assets/gallery/galeri1_b.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri2_b.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri3_b.webp" alt="Galeri Images" />
+              <img src="./assets/gallery/galeri4_b.webp" alt="Galeri Images" />
+              <img
+                src="./assets/gallery/galeri2_potrait.webp"
+                alt="Galeri Images"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="_comment-content">
+        <div class="_container">
+          <div class="_comment-wrapper">
+            <form>
+              <h1>Form Komentar</h1>
+              <div class="_form-box">
+                <label for="nama">Nama</label>
+                <input id="nama" name="nama" type="text" autocomplete="off" />
+              </div>
+              <div class="_form-box">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="_form-box">
+                <label for="comment">Komentar</label>
+                <textarea
+                  id="comment"
+                  name="comment"
+                  rows="10"
+                  cols="60"
+                  placeholder="comment right here..."
+                ></textarea>
+              </div>
+              <div class="_form-box">
+                <button type="submit">Submit</button>
+              </div>
+            </form>            
+          </div>
+        </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="_footer-content">
+        <div class="_container">
+          <div class="_footer-wrapper">
+            <div class="_footer-logo">
+              <h1><span style="color: #ff8906">JBR</span> Coffee</h1>
+              <h2>Nikmati Kopi Untuk Menemani Hari Indahmu</h2>
+              <div class="_divider" style="background-color: #fffffe"></div>
+              <p>Contact:</p>
+              <div class="_footer-contact">
+                <i class="fa-brands fa-whatsapp">
+                  <span>0821-3236-2212</span>
+                </i>
+                <i class="fa-brands fa-telegram">
+                  <span>0821-3236-2212</span>
+                </i>
+              </div>
+            </div>
+            <div class="_footer-feature">
+              <h3>Fitur</h3>
+              <div class="_footer-feature-box">
+                <a href="#tentang">Tentang</a>
+                <a href="#bidang-usaha">Bidang Usaha</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <div class="_footer-sosial-media">
+              <h3>Sosial Media</h3>
+              <div class="_footer-sosmed-box">
+                <a href="##">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span>@jbr_lumajang</span>
+                </a>
+                <a href="##">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>@jbr_lumajang</span>
+                </a>
+                <a href="##">
+                  <i class="fa-brands fa-twitter"></i>
+                  <span>@jbr_coffeeshop_lumajang</span>
+                </a>
+                <a href="##">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span>JBR Coffee Lumajang</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./js/index.js"></script>
   </body>
