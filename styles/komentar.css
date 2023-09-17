@@ -1,0 +1,120 @@
+@import url(./constants.css);
+
+._comment-content {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 3rem 0;
+  background: url(../assets/commons/comments-image.webp);  
+  background-size: cover;
+  background-position: center;
+}
+
+._comment-wrapper {
+  display: grid;
+  grid-template-columns: 40% auto;
+  gap: 5%;
+}
+
+._comment-wrapper form h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+._form-box {
+  margin-bottom: 1rem;
+}
+
+._form-box label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+._form-box input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 0.3rem;  
+  border-radius: 0.3rem;
+  background-color: var(--text-color);
+  border: none;    
+}
+
+._form-box #comment {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border-bottom-right-radius: 0;
+  background-color: var(--text-color);
+  width: 100%;
+}
+
+._form-box #comment:focus {
+  border: none;
+  outline: none;
+}
+
+._form-box input:hover,
+._form-box #comment:hover {  
+  background-color: rgb(227, 227, 227);
+}
+
+._form-box input:focus,
+._form-box #comment:focus {
+  border: none;  
+  outline: none;
+  background-color: rgb(227, 227, 227);
+}
+
+._form-box button {
+  padding: 0.5rem 2rem;
+  background-color: var(--highlight-color);
+  cursor: pointer;
+  color: var(--text-color);
+  border: none;
+  border-radius: 0.4rem;
+}
+
+._form-box button:hover {  
+  background-color: var(--secondary-color);  
+}
+
+._comment-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+._comment-desc h1 {
+  font-size: 3rem;
+}
+
+._comment-desc h2 {  
+  font-size: 2rem;   
+  margin-bottom: 1rem;
+}
+
+._comment-desc p {  
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 550px) {  
+  ._comment-wrapper {
+    display: grid;
+    grid-template-columns: auto;    
+  }  
+}
+
+@media screen and (min-width: 550px) {  
+  ._comment-wrapper {
+    display: grid;
+    grid-template-columns: auto;    
+  }  
+}
+
+@media screen and (min-width: 770px) {  
+  ._comment-wrapper {
+    display: grid;
+    grid-template-columns: 50%;
+  }  
+}

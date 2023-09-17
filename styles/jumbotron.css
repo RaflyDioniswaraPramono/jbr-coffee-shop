@@ -8,6 +8,7 @@
   background-position: center;
   padding-top: 15rem;
   padding-bottom: 12rem;
+  margin-bottom: 5rem;
 }
 
 ._jumbotron-component-wrapper {
@@ -49,4 +50,48 @@
 
 ._jumbotron-component-wrapper button:hover {  
   background-color: var(--secondary-color);  
+}
+
+@media screen and (max-width: 550px) {  
+  ._jumbotron-component {
+    margin-top: -5rem;    
+    padding: 12rem 0;
+    margin-bottom: 5rem;
+  }
+
+  ._jumbotron-component-wrapper {
+    width: 100%;    
+  }
+  
+  ._jumbotron-component-wrapper h1 {    
+    margin-bottom: 1rem;
+  }  
+  
+  ._jumbotron-component-wrapper p {    
+    margin-bottom: 2rem;
+  }    
+}
+
+@media screen and (min-width: 550px) {
+  ._jumbotron-component {
+    margin-top: -5rem;    
+    padding: 14rem 0;
+    margin-bottom: 5rem;
+  }
+
+  ._jumbotron-component-wrapper {
+    width: 65%;    
+  }  
+}
+
+@media screen and (min-width: 770px) {
+  ._jumbotron-component {
+    margin-top: -5rem;    
+    padding: 14rem 0;
+    margin-bottom: 5rem;
+  }
+
+  ._jumbotron-component-wrapper {
+    width: 65%;    
+  }  
 }
